@@ -59,7 +59,7 @@ public class AbrirArchivo extends JFrame{
                 btnGuardarBD.setBounds(350,30,150,30);
                 add(btnGuardarBD);
                 btnGuardarBD.setVisible(false);
-                selector = new JFileChooser(System.getProperty("darkf.dir"));
+                selector = new JFileChooser(System.getProperty("/*Aqui coloca tu nombre de usaurio WIndows*/.dir"));
                 selector.setFileFilter(new FileNameExtensionFilter("Archivos de alumnos: ","csv", "xlsx", "xls"));
                 
 btnAbrir.addActionListener(
